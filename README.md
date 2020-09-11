@@ -1,2 +1,2 @@
-# flask-app-scaffold
-A basic flask app package scaffold with blueprints
+# Flask App Scaffold
+A basic flask app package scaffold with blueprint
