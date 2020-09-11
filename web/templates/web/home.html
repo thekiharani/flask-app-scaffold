@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+{% extends 'web/layouts/master.html' %}
+
+{% block content %}
+    <div class="my-5">
+        {% include 'web/partials/_messages.html' %}
+        <div class="jumbotron">
+            <h1 class="display-4 text-center">Welcome to flaskPay</h1>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias debitis deleniti facilis iste iure nobis, quo vitae? Aperiam commodi consequatur consequuntur cum dolores earum in labore, mollitia numquam officiis qui saepe? Autem blanditiis consequatur, distinctio, esse ex facilis iusto necessitatibus omnis pariatur recusandae sint.</p>
+            <hr class="my-4">
+            <p>flaskPay Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequatur dicta ipsum officiis perspiciatis placeat provident quibusdam quo repellat veniam. Atque, ullam!</p>
+            <a class="btn btn-primary btn-lg" href="{{ url_for('web.login') }}" role="button">Learn more</a>
+        </div>
+    </div>
+{% endblock content %}
